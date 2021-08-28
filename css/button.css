@@ -1,0 +1,57 @@
+.button {
+  font: var(--button);
+  border-radius: 5.625rem;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  padding-block-start: 13px;
+  padding-block-end: 13px;
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+}
+
+.button.btn-primary {
+  background: var(--primary);
+  border: 2px solid var(--black);
+  color: var(--black);
+  box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.button.btn-secundary {
+  border: 2px solid var(--black);
+  color: var(--black);
+  filter: drop-shadow(-4px 4px 14px rgba(0, 0, 0, 0.25));
+  background: none;
+}
+
+.button.btn-secundary img {
+  position: relative;
+  bottom: 1px;
+}
+
+.button i {
+  display: inline-block;
+}
+
+.button span {
+  vertical-align: middle;
+}
+
+.button i img {
+  vertical-align: middle;
+}
+
+.title {
+  background: var(--black);
+  color: var(--primary);
+  font: var(--headline5);
+  text-decoration: none;
+  display: inline-block;
+  align-self: flex-start;
+  box-shadow: -4px 4px 0px #ffffff;
+  padding-block-start: 4px;
+  padding-block-end: 4px;
+  padding-inline-start: 0.5rem;
+  padding-inline-end: 0.5rem;
+}

@@ -1,0 +1,18 @@
+.btn-icon {
+  border: 2px solid var(--black);
+  background: var(--primary);
+  padding: 0.6rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-icon img {
+  vertical-align: middle;
+}
+
+.btn-icons {
+  padding-block-start: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
